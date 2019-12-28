@@ -1,0 +1,205 @@
+/* 导航部分开始 */
+body{
+	font-family: "Microsoft Yahei";
+}
+.yinc{
+	background: none;
+	border:none;
+	float: left;
+	z-index: 99;
+}
+.navbar-collapse{
+	position: relative;
+}
+.navbar .navbar-collapse .xian{
+	position: absolute;
+	left: 50%;
+	margin-left: -220px;
+	width: 450px;
+	height: 60px;
+}
+.navbar .navbar-collapse .xian>li>a{
+	color: #fff;
+}
+.navbar-default .navbar-brand{
+	font-size: 28px;
+	height: 50px;
+	line-height: 35px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	font-size: 16px;
+	/*height: 60px;*/
+	line-height: 20px;
+	margin-left: 20px;
+	padding-bottom: 0;
+}
+/* 导航部分结束 */
+
+/* 首页部分开始 */
+#home{
+	background: url(../images/bg.jpg) no-repeat;
+	background-size: cover;
+	height: 940px;
+
+}
+#home>.lvjing>.text{
+	position: relative;
+	/*text-align: center;*/
+	padding-top: 240px;
+	color: #fff;
+	
+}
+#home .logo{
+	width: 200px;
+}
+.lvjing{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 35, 65, 0.45)
+}
+.text>p{
+	margin-top: 30px;
+	font-size: 16px;
+	/* color: #00ffff; */
+	color: #fff;
+}
+#home .lvjing .inps{
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: 50px;
+}
+#home .lvjing ul .inp{
+	float:left;
+	width: 64px;
+	height: 64px;
+	margin-left: 12px;
+	list-style: none;
+	cursor: pointer;
+}
+.down{
+	position: absolute;
+	left: 50%;
+	margin-left: -34px;
+	top:580px;
+	width: 60px;
+	height: 60px;
+	background: url(../images/down-circle.png) no-repeat;
+	background-size: cover;
+}
+.down:hover{
+	background: url(../images/down-circle-a.png) no-repeat;
+	background-size: cover;
+	transition: background 0.5s;
+}
+
+/* 首页部分结束 */
+
+/* 基本信息部分开始 */
+
+#me .me{
+	width: 100%;
+	padding-bottom: 94px;
+	background: #d3dbe1;
+	margin: 0 0 94px 0;
+}
+
+#me .left{
+	text-align: center;
+}
+#me .left img{
+	margin-top:134px;
+}
+#me .right{
+	background: #234a68;
+	color: #fff;
+	margin-top:114px;
+	font-size: 16px;
+	line-height: 30px;
+	padding: 30px;
+}
+/* 基本信息部分结束 */
+
+#experience{
+	margin-top: 30px;
+}
+.exp-info{
+	margin-top: 40px;
+}
+/* 个人作品部分开始 */
+.my-word{
+	margin-top: 50px;
+	padding-top:60px  ;
+	width: 100%;
+	/* height: 784px; */
+	background: url(../images/bg2.jpg) no-repeat;
+	background-size:cover; 
+	color:#fff;
+	text-align: center;
+
+
+	overflow: auto;
+  	zoom: 1;
+}
+.my-word .nav{
+    width:580px;
+    margin: 30px auto;
+}
+.my-word .nav ul li{
+    float: left;
+    width: 74px;
+    height: 36px;
+    line-height:36px;
+    /*background: #ea5525;*/
+    margin: 0 16px;
+    font-size: 12px;
+	text-align: center;
+	
+	list-style:none
+}
+
+.btn2{
+    display: block;
+    background:  #ea5525;
+    color: #fff;
+}
+.btn1{
+    display: block;
+	/* background: #f3f4f7; */
+	color: #fff;
+}
+#box2,
+#box3,
+#box4,
+#box5{
+    display: none;
+}
+.my-word ul li{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+/* 个人作品部分结束 */
+
+/* 给我留言部分开始 */
+.message{
+	position: relative;
+	padding-top:90px ;
+	color:#fff;
+	width: 100%;
+	background: #103b5b;
+	
+}
+.message .title{
+	margin: 40px;
+}
+.list{
+	width: 300px !important;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	margin: 30px auto 150px auto;
+}
+/* 给我留言部分结束 */
